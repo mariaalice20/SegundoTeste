@@ -1,6 +1,5 @@
 #include "sensorindustrial.h"
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
