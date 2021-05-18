@@ -1,5 +1,6 @@
 #include "sensorindustrial.h"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -44,6 +45,10 @@ void SensorIndustrial::limpaDados()
         delete[] this->dados;
         this->dados = nullptr;
         this->numMed = 0;
+    }
+    else
+    {
+        cout<<"Não existe nenhum dado"<<endl;
     }
 }
 
