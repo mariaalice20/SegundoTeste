@@ -45,10 +45,6 @@ void SensorIndustrial::limpaDados()
         this->dados = nullptr;
         this->numMed = 0;
     }
-    else
-    {
-        cout<<"Não existe nenhum dado"<<endl;
-    }
 }
 
 string SensorIndustrial::getId()
